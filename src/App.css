@@ -42,7 +42,7 @@
 @media screen and (max-width: 1024px){
   .ContainerApp-class{
     width: 60vw;
-    height: 80vh;
+    height: 70vh;
     padding: 0.8rem;
   }
 }
@@ -50,7 +50,7 @@
 @media screen and (max-width: 768px){
   .ContainerApp-class{
     width: 80vw;
-    height: 70vh;
+    height: 60vh;
     border-radius: 1rem;
     padding: 0.7rem;
   }
