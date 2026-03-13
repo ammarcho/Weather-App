@@ -23,6 +23,7 @@ export function MainFound({city,weather,forecast}){
     const dailyForecast = forecast?.list.filter((items)=>items.dt_txt.includes("12:00:00"));
     return(
         <div className="MainFoundTes-class">
+            <div className="wrapperAtasMainFound-class">
             <div className="Locdate-class">
                 <div className="Kiri-locdate highlightfont">
                     <span className="material-symbols-outlined">location_on</span>
@@ -56,7 +57,7 @@ export function MainFound({city,weather,forecast}){
                     </div>
                 </div>
             </div>
-
+            </div>
             <div className="WeatherForecast-class">
                 {dailyForecast?.slice(0,5).map((item,index)=>(
                     <div className="ContentForecast-class" key={index}>
