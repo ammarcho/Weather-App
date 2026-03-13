@@ -1,0 +1,202 @@
+.highlightfont{
+    font-weight:900;
+}
+
+.MainFound-class{
+    display: flex;
+    flex-direction: column;
+}
+
+.Locdate-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 1rem;
+    border: 1px solid transparent;
+    margin-bottom: 0.5rem;
+}
+
+.Kiri-locdate{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.Kiri-locdate span{
+    display: flex;
+    align-items: center;
+}
+
+.CurrentWeather-class{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+}
+
+.CurrentWeather-class img{
+    width: 10rem;
+}
+
+.TemperatureWeather-class{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    row-gap: 0.2rem;
+    font-size: 1.5rem;
+}
+
+.TemperatureWeather-class h3,h4{
+    margin: 0;
+}
+
+.HumidityWind-class{
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    margin-top: 0.5rem;
+}
+
+.Humidity-class{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.Humidity-class span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.Wind-class{
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+.Wind-class span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.WeatherForecast-class{
+    margin-top: 1.5rem;
+    display: flex;
+    column-gap: 1.5rem;
+    overflow-x:scroll ;
+}
+
+.ContentForecast-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 0.5rem;
+
+    background: rgba(91, 91, 91, 0.466);
+    border-radius: 1rem;
+    padding: 1rem;
+    min-width: 8rem;
+}
+
+.ImageForecast{
+    width: 3rem;
+}
+
+.WeatherForecast-class::-webkit-scrollbar{
+    height: 10px;
+}
+
+.WeatherForecast-class::-webkit-scrollbar-track{
+    background-color: rgb(0,0,0,0.1);
+    border-radius: 99px;
+}
+
+.WeatherForecast-class::-webkit-scrollbar-thumb{
+    background-color: rgb(0,0,0,0.15);
+}
+
+@media (max-width: 1600px){
+
+    .MainFound-class{
+        max-width: 100%;
+        margin: 0 auto;
+
+    }
+
+
+    .Locdate-class{
+        padding-inline: 0.75rem;
+        margin-top: 0.5rem;
+    }
+
+    .Locdate-class h3{
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    .Locdate-class h4{
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    .CurrentWeather-class{
+        padding-inline: 0.75rem;
+        margin-top: 0rem;
+        margin-bottom: 0.4rem;
+    }
+
+    .CurrentWeather-class img{
+        width: 8rem;
+        margin: 0;
+    }
+
+
+    .TemperatureWeather-class{
+        font-size: 1.3rem;
+    }
+
+    .HumidityWind-class{
+        padding-inline: 0.75rem;
+    }
+
+    .Humidity-class span,
+    .Wind-class span{
+        font-size: 1.7rem;
+    }
+
+    .DetailHumidity-class h4,
+    .DetailWind-class h4{
+        font-size: 0.9rem;
+    }
+
+
+    .WeatherForecast-class{
+        column-gap: 1rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .ContentForecast-class{
+        min-width: 7rem;
+        padding: 0.75rem;
+        row-gap: 0.4rem;
+    }
+
+    .ImageForecast{
+        width: 2.5rem;
+    }
+
+    .DateForecast,
+    .TemperatureForecast{
+        font-size: 0.9rem;
+    }
+}

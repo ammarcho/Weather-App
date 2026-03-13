@@ -1,0 +1,100 @@
+.SearchBar-class{
+    width: 100%;
+    margin: 1rem auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.search-wrapper{
+    position: relative;
+}
+
+.search-wrapper input{
+    width: 8rem;
+    height: 3rem;
+
+    background: linear-gradient(
+        to top, rgba(0,0,0,0.2),
+               rgba(0,0,0,0.4)
+    );
+
+    font-size: 1rem;
+    line-height: 3;
+
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+
+    padding: 1rem;
+    padding-right: 2.5rem;
+
+    transition: width 0.4s ease;
+}
+
+.search-wrapper input:focus{
+    width: 18rem;
+}
+
+.search-btn{
+    position: absolute;
+    right: 0.8rem;
+    top: 50%;
+    transform: translateY(-50%);
+
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.material-symbols-outlined{
+    font-size: 1.5rem;
+}
+
+.home-btn{
+    position: absolute;
+    left: 0.5rem;
+
+    background: linear-gradient(
+        to top, rgba(41,41,41,0),
+               rgba(0,0,0,0.3)
+    );
+
+    border: none;
+    border-radius: 1rem;
+    padding: 0.2rem 0.5rem;
+    cursor: pointer;
+}
+
+.search-wrapper input::placeholder{
+    color: white;
+    font-size: 0.8rem;;
+}
+
+@media (max-width: 1600px){
+
+    .SearchBar-class{
+        margin: 0.5rem auto;
+    }
+
+    .search-wrapper input{
+        width: 8rem;
+    }
+
+    .search-wrapper input:focus{
+        width: 12rem;
+    }
+}
+
+@media (max-width: 768px) {
+      .search-wrapper input{
+        width: 6rem;
+    }
+
+    .search-wrapper input:focus{
+        width: 9rem;
+    }
+}
