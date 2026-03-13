@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 0rem;
+    row-gap: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 
 .MainHome-class img{
     width: 80%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     object-fit: cover;
 }
 
@@ -25,7 +25,38 @@
 @media (max-width :1600px){
     .MainHome-class img{
         width: 70%;
-        margin-top: 1rem;
-        margin-bottom: 0.5rem;
 }
+}
+
+@media screen and (max-width: 1024px){
+    .MainHome-class{
+        row-gap: 0.5rem;
+    }
+    .MainHome-class img{
+        width: 60%;
+        object-fit: cover;
+    }
+    .MainHome-class h1{
+        font-size: 1.5rem;
+    }
+    .MainHome-class h2{
+        font-size: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .MainHome-class{
+        row-gap: 1rem;
+    }
+    .MainHome-class img{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    .MainHome-class h1{
+        font-size: 1.5rem;
+    }
+    .MainHome-class h2{
+        font-size: 1.2rem;
+    }
 }

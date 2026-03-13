@@ -22,7 +22,7 @@ export function MainFound({city,weather,forecast}){
 
     const dailyForecast = forecast?.list.filter((items)=>items.dt_txt.includes("12:00:00"));
     return(
-        <div className="MainFound-class">
+        <div className="MainFoundTes-class">
             <div className="Locdate-class">
                 <div className="Kiri-locdate highlightfont">
                     <span className="material-symbols-outlined">location_on</span>
