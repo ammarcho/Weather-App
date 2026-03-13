@@ -181,7 +181,7 @@ h1,h2,h3,h4{
         column-gap: 0.2rem;
     }
     .Humidity-class span{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .DetailHumidity-class h4{
         font-size: 0.8rem;
@@ -190,7 +190,7 @@ h1,h2,h3,h4{
         column-gap: 0.2rem;
     }
     .Wind-class span{
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     .DetailWind-class h4{
         font-size: 0.8rem;
