@@ -149,7 +149,7 @@ h1,h2,h3,h4{
     }
 
     .Locdate-class{
-        padding-inline: 0rem;
+        padding-inline: 0.4rem;
     }
 
     .Locdate-class h4{
@@ -161,7 +161,7 @@ h1,h2,h3,h4{
     }
 
     .CurrentWeather-class{
-        padding-inline: 0rem;
+        padding-inline: 0.4rem;
 
     }
     .CurrentWeather-class img{
@@ -174,7 +174,7 @@ h1,h2,h3,h4{
         font-size: 1rem;
     }
     .HumidityWind-class{
-        padding-inline: 0rem;
+        padding-inline: 0.4rem;
     }
 
     .Humidity-class{
